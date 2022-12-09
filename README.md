@@ -11,9 +11,9 @@
     X Definiamo un design e scriviamo solo la parte statica;
     X Definiamo l'HTML per riempire la tabella (le mie <tr>);
     X Definiamo una utility fx che ci crea l'HTML delle <tr> a partire dall'oggeto che rappresenta i dati;
-[ ] - Fetch dei dati dall'API (https://jsonplaceholder.typicode.com/users, https://jsonplaceholder.typicode.com/posts);
-    - Definiamo due funzioni che ci permettono di prendere i dati (users e posts) dall'API;
-    - Definire una strategia di gestione e salvataggio (state, localStorage?)
+[ ] X Fetch dei dati dall'API (https://jsonplaceholder.typicode.com/users, https://jsonplaceholder.typicode.com/posts);
+    x Definiamo due funzioni che ci permettono di prendere i dati (users e posts) dall'API;
+    X Definire una strategia di gestione e salvataggio (state, localStorage?)
 [ ] - Capire se filtrare, ordinare, manipolare e impaginare;
     - Filtrare? No | Si;
       - (CLIENT) Deve poter filtrare secondo criteri specifici
@@ -23,7 +23,7 @@
       - (CLIENT) Deve poter ordinare secondo criteri specifici
       - Definiamo una funzione da evocare per ordinare i dati in display -> `sort()`;
     - Manipolare? Si (vogliamo attribuire a ogni post il suo autore) | No;
-      - (INTERNAL) Definiamo una funzione che ci permette di interpolare i dati (posts e users -> userId) -> `map()`;
+      X (INTERNAL) Definiamo una funzione che ci permette di interpolare i dati (posts e users -> userId) -> `map()`;
     - Impaginare? Si (se troppi) | Si;
       - (INTERNAL) Definiamo una funzione che seleziona solo i dati appartenenti alla pagina selezionata -> `slice()`;
       - (CLIENT) Definiamo una funziona che permette di scorrere le pagine -> `slice()`;
