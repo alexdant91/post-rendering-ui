@@ -7,13 +7,13 @@
 
 ## TODO
 
-[ ] - Struttura statica HTML della tabella;
-    - Definiamo un design e scriviamo solo la parte statica;
-    - Definiamo l'HTML per riempire la tabella (le mie <tr>);
-    - Definiamo una utility fx che ci crea l'HTML delle <tr> a partire dall'oggeto che rappresenta i dati;
+[ ] X Struttura statica HTML della tabella;
+    X Definiamo un design e scriviamo solo la parte statica;
+    X Definiamo l'HTML per riempire la tabella (le mie <tr>);
+    X Definiamo una utility fx che ci crea l'HTML delle <tr> a partire dall'oggeto che rappresenta i dati;
 [ ] - Fetch dei dati dall'API (https://jsonplaceholder.typicode.com/users, https://jsonplaceholder.typicode.com/posts);
     - Definiamo due funzioni che ci permettono di prendere i dati (users e posts) dall'API;
-    - Definire una stratgia di gestione e salvataggio (state? localStorage?)
+    - Definire una strategia di gestione e salvataggio (state, localStorage?)
 [ ] - Capire se filtrare, ordinare, manipolare e impaginare;
     - Filtrare? No | Si;
       - (CLIENT) Deve poter filtrare secondo criteri specifici
